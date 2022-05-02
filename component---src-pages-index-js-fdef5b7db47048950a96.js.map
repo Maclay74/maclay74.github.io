@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-index-js-fdef5b7db47048950a96.js","mappings":"kJASA,UANkB,WAChB,OACE","sources":["webpack://unity-github-pages/./src/pages/index.js"],"sourcesContent":["\r\n\r\n\r\nconst IndexPage = () => {\r\n  return (\r\n    <div>Here we go</div>\r\n  )\r\n}\r\n\r\nexport default IndexPage\r\n"],"names":[],"sourceRoot":""}
