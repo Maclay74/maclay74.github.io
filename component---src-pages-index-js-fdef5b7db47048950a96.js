@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkunity_github_pages=self.webpackChunkunity_github_pages||[]).push([[678],{6558:function(e,u,n){n.r(u);var t=n(5893);u.default=function(){return(0,t.jsx)("div",{children:"Here we go"})}}}]);
-//# sourceMappingURL=component---src-pages-index-js-fdef5b7db47048950a96.js.map
