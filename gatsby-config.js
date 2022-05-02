@@ -1,14 +1,22 @@
 module.exports = {
-  siteMetadata: {
-    title: `UnityGithubPages`,
-    siteUrl: `https://www.yourdomain.tld`
-  },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-react-helmet", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "images",
-      "path": "./src/images/"
+    siteMetadata: {
+        title: `Maclay74`,
+        siteUrl: `https://maclay74.github.io`
     },
-    __key: "images"
-  }]
+    plugins: [
+        "gatsby-plugin-sass",
+        "gatsby-plugin-image",
+        "gatsby-plugin-react-helmet",
+        "gatsby-plugin-sitemap",
+        "gatsby-plugin-sharp",
+        "gatsby-transformer-sharp",
+        {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                "name": "images",
+                "path": "./src/images/"
+            },
+            __key: "images"
+        }],
+    jsxRuntime: "automatic"
 };
