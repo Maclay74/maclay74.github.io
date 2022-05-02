@@ -1,0 +1,55 @@
+.examples {
+  background: #2e2e2e;
+  padding: 10px 10px 50px;
+  min-height: calc(100vh - 420px - 80px - 160px);
+
+  .title {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 70px;
+    opacity: 0.2;
+    margin: 0 0 30px;
+  }
+
+  .list {
+    display: flex;
+  }
+}
+
+.example {
+  flex-shrink: 0;
+  width: 300px;
+  display: block;
+  text-decoration: none;
+
+  .name {
+    font-weight: 700;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: #0ead36;
+  }
+
+  .picture {
+    width: 300px;
+  }
+
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
+
+  :global(.gatsby-image-wrapper) {
+    img {
+      transform: scale(1);
+      transition: 0.2s transform;
+    }
+  }
+
+  &:hover {
+    :global(.gatsby-image-wrapper) {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

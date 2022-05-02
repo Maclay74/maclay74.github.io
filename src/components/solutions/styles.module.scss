@@ -1,0 +1,59 @@
+.solutions {
+  height: 420px;
+  background: #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .product {
+    display: flex;
+    flex-direction: row;
+
+    z-index: 1;
+
+    .about {
+      padding-left: 500px;
+    }
+
+    .picture {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+
+    .name {
+      color: #0ead36;
+      font-size: 24px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    .description {
+      color: white;
+      max-width: 400px;
+      margin-top: 10px;
+      line-height: 22px;
+    }
+
+    a {
+      color: white;
+      background: #3E498C;
+      padding: 10px 15px;
+      text-decoration: none;
+      margin-top: 10px;
+      display: inline-flex;
+      border-radius: 2px;
+      transition: 0.1s background-color;
+
+      &:hover {
+        background: #4A5FD9;
+        color: white !important;
+      }
+    }
+
+  }
+}

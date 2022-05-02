@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #262626;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #262626;
+  transition: 0.1s color;
+
+  &:hover {
+    color: #0DA633 !important;
+  }
+}
+
+:global {
+  .container {
+    padding: 0 15px;
+    max-width: 1150px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+/* Color Theme Swatches in Hex */
+$Datum-1-hex: #4A5FD9;
+$Datum-2-hex: #3E498C;
+$Datum-3-hex: #0DA633;
+$Datum-4-hex: #262626;
+$Datum-5-hex: #0D0D0D;
+
