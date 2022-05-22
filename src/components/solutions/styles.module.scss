@@ -9,11 +9,19 @@
   .product {
     display: flex;
     flex-direction: row;
-
+    height: 100%;
+    width: 100%;
     z-index: 1;
 
     .about {
-      padding-left: 500px;
+      padding-left: 50%;
+      display: flex;
+      height: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0,0,0,0.7) 50%);
+      width: 100%;
     }
 
     .picture {

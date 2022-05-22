@@ -14,8 +14,6 @@ const Example = ({ title, link, image }) => {
 const Examples = () => {
   const data = useExamples();
 
-  console.log(data)
-
   return (
     <div className={examples} id={"examples"}>
       <div className="container">
